@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import TrainTable from "../components/Traintable"
+import TrainTable from "../components/TrainTable"
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { toast, ToastContainer, Bounce } from "react-toastify";
