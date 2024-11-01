@@ -72,7 +72,7 @@ const Graph2=()=>{
     <div className="bg-gray-800 min-h-screen flex justify-center">
         <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 py-3 border-2 border-[#26de9a] my-3 pt-0 rounded-xl">
             <div className="p-2 bg-[#26de9a] rounded-lg rounded-b-none border-2 border-[#26de9a]">
-                <Heading label="Anamoly Data" color="text-white" />
+                <Heading label="Anomaly Data" color="text-white" />
             </div>
             <LineChartComponent2 />
         </div>
