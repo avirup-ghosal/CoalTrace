@@ -107,7 +107,7 @@ export default function Signup(){
     
       <div className="bg-gray-700 min-h-screen flex justify-center">
       <div className="flex flex-col justify-center">
-      <div className="rounded-lg bg-gray-800 border-2 hover:border-[#26de9a] w-80  p-12 h-max px-4">
+      <div className="rounded-lg bg-gray-800 border-2 hover:border-[#26de9a] w-full max-w-md lg:max-w-lg p-8">
           <div className="flex justify-between">
             <Heading label="Sign up" color="text-[#26de9a]"></Heading>
           <GiThrownCharcoal size={50} color="#26de9a"></GiThrownCharcoal>
