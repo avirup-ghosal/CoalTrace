@@ -1,5 +1,5 @@
 import Hero from "../components/Hero"
-import logo from "C:/Users/amita/OneDrive/Desktop/Projects/NITR/CoalTrace/frontend/src/assets/Carbon.jpeg"
+import logo from "C:/Users/amita/OneDrive/Desktop/Projects/NITR/CoalTrace/frontend/src/Carbon.jpeg"
 
 export default function Landing(){
     return(
