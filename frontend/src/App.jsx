@@ -12,6 +12,7 @@ import Graph2 from './pages/Graph2'
 import Graph3 from './pages/Graph3'
 import Aboutus from './pages/Aboutus'
 import Traindetails from './pages/Traindetails'
+import Landing from './pages/Landing'
 
 function App() {
   return(
@@ -20,12 +21,13 @@ function App() {
    <Routes>
     <Route path="/home" element={<Test2></Test2>} ></Route>
     <Route path="/test" element={<Test></Test>} ></Route>
-    <Route path="/" element={<Signup></Signup>} ></Route>
+    <Route path="/signup" element={<Signup></Signup>} ></Route>
     <Route path="/graph" element={<Graph></Graph>} ></Route>
     <Route path="/graph2" element={<Graph2></Graph2>} ></Route>
     <Route path="/graph3" element={<Graph3></Graph3>} ></Route>
     <Route path="/aboutus" element={<Aboutus></Aboutus>} ></Route>
     <Route path="/train" element={<Traindetails></Traindetails>} ></Route>
+    <Route path='/' element={<Landing></Landing>}></Route>
 
 
     <Route path="/signin" element={<Signin></Signin>} ></Route>

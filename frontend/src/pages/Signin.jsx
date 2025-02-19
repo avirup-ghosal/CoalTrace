@@ -47,7 +47,7 @@ export default function Signin(){
 
     return(
     
-      <div className="bg-gray-600 min-h-screen flex justify-center">
+      <div className="bg-gray-700 min-h-screen flex justify-center">
       <div className="flex flex-col justify-center">
       <div className="rounded-lg bg-gray-800 border-2 hover:border-[#26de9a]  w-full max-w-md lg:max-w-lg p-8">
           <Heading label="Sign in" color="text-[#26de9a]"></Heading>
@@ -61,7 +61,7 @@ export default function Signin(){
             <div>
               Don't have an account?&nbsp;
             </div>
-            <span className="cursor-pointer text-[#26de9a]" onClick={()=>{navigate('/')}}>Sign up</span>
+            <span className="cursor-pointer text-[#26de9a]" onClick={()=>{navigate('/signup')}}>Sign up</span>
         </div>
       </div>
       </div>
